@@ -8,11 +8,12 @@
         <PackAsTool>true</PackAsTool>
         <ToolCommandName>gitcleanlocal</ToolCommandName>
         <PackageOutputPath>./nupkg</PackageOutputPath>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageVersion>1.0.2</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="CliWrap" Version="3.4.1" />
+      <PackageReference Include="Cocona" Version="2.0.2" />
       <PackageReference Include="Spectre.Console" Version="0.43.0" />
     </ItemGroup>
 
